@@ -93,10 +93,12 @@ console.log("Net: " + checknot);
 //function on win
 function win(){
     alert ("Your answer is correct😄");
+    window.location.reload();
 }
 //function on lose
 function lose(){
-    alert ("Your answer is not correct😥")
+    alert ("Your answer is not correct😥");
+    window.location.reload();
 }
 //win or lose detect
 function winorlosedetect(){
