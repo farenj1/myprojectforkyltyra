@@ -1,0 +1,96 @@
+:root {
+    --gg: running;
+}
+body {
+    background-image: url("https://www.transparenttextures.com/patterns/clean-gray-paper.png");
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: #f5f5f5;
+}
+.ssdd {text-align: center;}
+.txt {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+}
+.cntrtxt {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+}
+.selya {
+    position: relative;
+    margin: 10 auto;
+    height: 2vh;
+    width: 2vh;
+    z-index: 5;
+    top: 1vh;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+.zcontent{
+    background-color: #f5f5f5;
+    background-image: url("https://www.transparenttextures.com/patterns/clean-gray-paper.png");
+    z-index: 2;
+    height: 26vh;
+    width: 65vh;
+    position: absolute;
+}
+.zanavess {
+    box-shadow: 21px 0px 8px -7px rgba(0, 0, 0, 0.5);
+    left: 0;
+}
+.zanavess2 {
+    box-shadow: -21px 0px 8px -7px rgba(0, 0, 0, 0.5);
+    right: 0;
+}
+.container {
+    height: 25vh;
+    background-color: #ffffff;
+    width: 400%;
+    margin: 2vh auto;
+}
+.imgg {
+    display: inline-block;
+    height: 25vh;
+    width: 25vh;
+    animation: animka 5s linear infinite;
+    animation-play-state: var(--gg);
+}
+.img {
+    display: inline-block;
+    height: 25vh;
+    width: 25vh; 
+}
+@keyframes animka {
+		from {transform: translateX(260%);}
+		to {transform: translateX(-350%);}
+}
+.btn-grad {
+    background-color: #ff4242;
+    color: white;
+    border: 0;
+    display: block;
+    margin: 5vh auto;
+    padding: 10px 150px;
+    border-radius: 10px;
+    transition-duration: 0.2s;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2), 0 2px 2px 0 rgba(0,0,0,0.19);
+}			
+.btn-grad:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    color: black;
+    border: 1px solid #ff0000;
+    background-color: #f8efef;
+}	
+.gif {
+    margin: 100 auto;
+    width: 10vh;
+    height: 15vh;
+    background-image: url("https://c.tenor.com/ske38eve_dYAAAAM/hehe-cat-hehe.gif");
+    background-size: 100%;   
+    background-repeat: no-repeat;
+}
